@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    text-decoration: none;
+}
+
+body {
+    font-family: "open-sans", sans-serif;
+}
+
+.bar-big {
+    width: 30px;
+    height: 3px;
+    border: 1px #86c33a solid;
+    margin-right: 3px;
+    border-radius: 5px;
+    background-color: #86c33a;
+    display: inline-block;
+}
+
+.bar-mid {
+    width: 15px;
+    height: 3px;
+    border: 1px #86c33a solid;
+    margin-right: 3px;
+    border-radius: 5px;
+    background-color: #86c33a;
+    display: inline-block;
+}
+
+.bar-sm {
+    width: 7.5px;
+    height: 3px;
+    border: 1px #86c33a solid;
+    border-radius: 5px;
+    background-color: #86c33a;
+    display: inline-block;
+}
+
+.social-handle ul {
+    display: flex;
+    color: aliceblue;
+    background-color: #252d39;
+    list-style: none;
+    padding: 19px 70px;
+    font-size: 14px;
+}
+
+.social-handle li {
+    margin-right: 20px;
+}
+
+.social-handle a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.social-handle a:hover {
+    color: #86c33a;
+}
+
+.social-handle>ul> :nth-child(6) {
+    margin-left: auto;
+    border-right: 1px aliceblue solid;
+    padding-right: 20px;
+}
+
+#last {
+    color: #86c33a;
+}
+
+nav {
+    padding: 30px 70px;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+nav button {
+    padding: 20px 30px;
+    background-color: #86c33a;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+nav button:hover {
+    background-color: #6b9c2e;
+    padding: 17px 27px;
+    margin: 3.2px;
+}
+
+nav img {
+    margin-right: 60px;
+}
+
+.banner {
+    background-image: url(../images/bexer/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #172331;
+    margin-bottom: 100px;
+}
+
+.firstChild {
+    display: flex;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #85c33a97;
+    align-self: flex-end;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 700px;
+    margin-top: 150px;
+}
+
+.banner-content h4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.rightArrow {
+    margin-left: auto;
+}
+
+.banner i {
+    padding: 25px;
+}
+
+.firstChild p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 600px;
+}
+
+.firstChild button {
+    background: none;
+    border: 3px #172231 solid;
+    color: #172231;
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 75px;
+}
+
+.services i {
+    font-size: 45px;
+    color: #85c33a;
+    border: 2px #86c33a solid;
+    border-radius: 100px 130px 150px 130px;
+    background-color: #85c33a3b;
+}
+
+.card {
+    transition: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 17%;
+    height: 200px;
+    color: #818385;
+    padding: 50px 30px 70px 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 39px rgba(8, 18, 109, 0.1);
+}
+
+.card h3 {
+    color: black;
+}
+
+.card:hover {
+    background-color: #252d39;
+    color: rgb(243, 246, 249);
+}
+
+#lightbulb i {
+    padding: 25px 30px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.side {
+    background-image: url(../images/bexer/abg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+
+.oside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: start;
+}
+
+.oside> :first-child {
+    display: flex;
+}
+
+.oside button {
+    padding: 20px 30px;
+    background-color: #86c33a;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.oside button:hover {
+    background-color: #6b9c2e;
+    padding: 17px 27px;
+    margin: 3.2px;
+}
+
+.oside:last-child {
+    width: 40%;
+}
+
+.achievments {
+    width: 80%;
+    display: flex;
+    padding: 50px 50px;
+    background-color: #252d39;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.achievments i {
+    color: #86c33a;
+    font-size: 50px;
+}
+
+.weBetter {
+    display: flex;
+    justify-content: center;
+    padding:150px 0px 150px 100px;
+
+}
+
+.main {
+    width: 35%;
+    min-height: 100vh;
+
+}
+
+.main> :first-child {
+    margin-bottom: 20px;
+}
+
+.main>h3 {
+    color: #818385;
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.main> p {
+    color: #818385;
+    margin-bottom: 50px;
+}
+
+.big-circle {
+    font-size: 45px;
+    color: #85c33a;
+    border: 2px #86c33a solid;
+    border-radius: 100px 130px 150px 130px;
+    background-color: #85c33a3b;
+    padding: 25px;
+}
+
+.text-width{
+    width: 75%;
+}
+
+.main> :nth-child(5) {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+.main> :nth-child(6){
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.hehe{
+    margin-top: 150px;
+}
+.service2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252d39;
+    height: 93vh;
+    position: relative;
+}
+.service2 > :first-child{
+    margin-top: 150px;
+}
+.service2 > h2{
+    color: #818385;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.service2 > h1{
+    color: #f5f6fa;
+    font-size: 45px;
+}
+.card9{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card9 > div{
+    width: 350px;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 15px 39px rgba(8, 18, 109, 0.1);
+}
+.card9 i{
+    position: relative;
+    top: -100px;
+    left: 10px;
+    border-radius: 50%;
+    background-color: #86c33a;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: -50px;
+}
+.card9 h2{
+    padding-left: 20px;
+}
+.card9 p{
+    color: #818385;
+    padding-left: 20px;
+}
+.card9 a{
+    display: inline-block;
+    margin: 30px 0px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+.team{
+    background-image: linear-gradient(to right, #f5f6fa 45%, #fff 0%);
+    padding-top: 400px;
+    text-align: center;
+}
