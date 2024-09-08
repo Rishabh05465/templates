@@ -1,0 +1,483 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins' , sans-serif;
+}
+body ul{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+    display: block;
+}
+
+.social{
+    background-color: white;
+    padding: 17px 75px;
+}
+.social > ul{
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+}
+.social li{
+    margin-right: 20px;
+}
+.social a{
+    color: rgb(92, 92, 119);
+    transition: all;
+    transition-duration: 0.2s;
+}
+.social a:hover{
+    color: #ffc107;
+}
+#right1{
+    margin-left: auto;
+}
+.container{
+    background-image: url(../images/Educenter/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.banner{
+    background-color: rgba(26, 26, 55, 0.8);
+}
+.banner ul{
+    display: flex;
+}
+.logo{
+    padding: 20px 70px;
+}
+#right2{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    background-color: #ffc107;
+    padding: 0px 50px;
+    height: 100px;
+}
+#right2 a{
+    color: white;
+}
+#right2 > li{
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#lang{
+    background-color: white;
+    padding: 1px 20px 0px 4px;
+}
+#lang > a{
+    color: black;
+    font-weight: 400;
+}
+.banText{
+    padding: 100px 75px;
+}
+.banText h1{
+    font-size: 60px;
+    width: 60%;
+    line-height: 72px;
+    color: white;
+}
+.banText p{
+    width: 70%;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    color: rgb(181, 181, 183);
+}
+.banText button{
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 15px 40px;
+}
+#icons{
+    display: flex;
+    padding: 0px 75px;
+}
+#icons > :first-child{
+    display: flex;
+    padding-bottom: 200px;
+}
+#icons > :first-child > div{
+    background-color:#ffc107;
+    height: 10px;
+    width: 10px;
+    margin-right: 15px;
+}
+#icons > :last-child{
+    display: flex;
+    margin-left: auto;
+}
+#icons i{
+    font-size: 35px;
+    margin-right: 30px;
+    color: rgb(181, 181, 183);
+}
+.notice{
+    display: flex;
+    background-color: rgb(248,248,248 );
+}
+.notice img{
+    margin-top: 200px;
+    margin-bottom: -20px;
+}
+#adhaUpar{
+    background-color: rgb(248,248,248 );
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+}
+#adhaUpar > div{
+    width: 38%;
+    margin: 20px 50px 70px 20px;
+}
+#adhaUpar i{
+    font-size: 50px;
+    color: rgb(255, 188, 59);
+    margin-bottom: 30px;
+}
+#adhaUpar h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#adhaUpar p{
+    color: rgb(92, 92, 119) ;
+}
+.about{
+    padding: 75px;
+    display: flex;
+}
+.about > div{
+    width: 50%;
+}
+.about > :first-child{
+    margin-right: 40px;
+}
+.about > :first-child h1{
+    color: rgb(30,30,75 );
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.about > :first-child p{
+    color: rgb(92, 92, 119);
+    margin-bottom: 30px;
+}
+.about button{
+    padding: 15px 40px;
+    border: 1px rgb(255, 188, 59) solid;
+    color: rgb(255, 188, 59);
+    background: transparent;
+}
+.course{
+    margin-top: 50px;
+    padding: 0px 75px 50px;
+    background-color: white;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 0px 20px;
+}
+.heading h1{
+    font-size: 40px;
+    color: #1e1e4b;
+}
+.heading button{
+    padding: 10px 35px;
+    border: 1px rgb(255, 188, 59) solid;
+    color: rgb(255, 188, 59);
+    background: transparent;
+}
+.bar > .bar-big {
+    width: 57.14%;
+    height: 3px;
+    border: 1px rgb(255, 188, 59) solid;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 188, 59);
+    display: inline-block;
+}
+
+.bar > .bar-mid {
+    width: 28.57%;
+    height: 3px;
+    border: 1px rgb(255, 188, 59) solid;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 188, 59);
+    display: inline-block;
+}
+
+.bar > .bar-sm {
+    width: 14.28%;
+    height: 3px;
+    border: 1px rgb(255, 188, 59) solid;
+    border-radius: 5px;
+    background-color: rgb(255, 188, 59);
+    display: inline-block;
+}
+.crad{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card7{
+    height: 536px;
+    width: 348px;
+    border: 1px #ededf1 solid;
+    margin:0px 9px 48px 9px ;
+}
+
+.card7 button{
+    padding: 10px 35px;
+    border: 1px rgb(255, 188, 59) solid;
+    color: white;
+    background-color: rgb(255, 188, 59);
+}
+.card7 > :last-child{
+    padding: 10px 20px 20px;
+}
+.card7 > :last-child h3{
+    color: #1e1e4b;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.card7 > :last-child p{
+    margin-bottom: 25px;
+    color: #5c5c77;
+}
+.head{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color:#5c5c77;
+}
+.head h4{
+    font-weight: 400;
+}
+.space{
+    margin: 0px 20px 0px 5px;
+}
+.join{
+    background-color: #ffbc3b;
+    color: white;
+    text-align: center;
+    padding: 90px 0px;
+}
+.join h3{
+    font-size: 16px;
+}
+.join h1{
+    font-size: 40px;
+}
+.join button{
+    background-color: white;
+    border: none;
+    color: #ffc107;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+.story{
+    background-image: url(../images/Educenter/success-story.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 75px 75px;
+}
+.story a i{
+    color: white;
+    border-radius: 50%;
+    background-color: #ffbc3b;
+    padding: 30px;
+}
+.text{
+    margin-left: auto;
+    background-color: white;
+    width: 480px;
+    height: 519px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.text h1{
+    width: 440px;
+    font-size: 40px;
+    color: #1e1e4b;
+    margin-bottom: 30px;
+}
+.text p{
+    width: 440px;
+    color: #5c5c77;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.event{
+    background-color: #f8f8f8;
+    padding: 100px 75px;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.top h1{
+    font-size: 40px;
+    color: #1e1e4b;
+}
+.top button{
+    padding: 10px 35px;
+    border: 1px rgb(255, 188, 59) solid;
+    color: rgb(255, 188, 59);
+    background: transparent;
+}
+.curd{
+    display: flex;
+    justify-content: space-around;
+}
+.card5{
+    width: 349px;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+.card5 h1{
+    width: 50px;
+    line-height: 30px;
+    position: relative;
+    top: -304px;
+    z-index: 99;
+    padding: 20px 17.5px 10px 7.5px;
+    color: #ededf1;
+    background-color: #ffbc3b;
+    font-size: 50px;
+    margin-bottom: -100px;
+}
+.card5 h1 div{
+    font-size: 20px;
+    text-align: end;
+}
+.card5 > div{
+    background-color: white;
+    padding: 25px;
+}
+.card5 > div >div {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.card5 i{
+    color: #ffbc3b;
+    margin-right: 10px;
+}
+.card5 h3{
+    font-weight: 400;
+}
+.card5 h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.news{
+    background-color: white;
+    padding: 75px 0px 100px;
+    
+}
+.card0{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.news > h1{
+    padding-left: 75px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #1e1e4b;
+}
+.card0 > .card7{
+    margin-right: 20px;
+    border: none;
+    border-bottom: 0.5px #ededf1 solid;
+}
+.letter{
+    background-color: #ffbc3b;
+    width: fit-content;
+    margin-left: auto;
+    position: relative;
+    top: -75px;
+    padding: 40px;
+    color: white;
+}
+footer{
+    background-color: #182b45;
+}
+form{
+    background-color: #fff;
+    width: fit-content;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+form > input{
+    border: none;
+    width: 700px;
+    height: 50px;
+    font-size: 18px;
+    
+}
+form > button{
+    background-color: #ffc107;
+    border: none;
+    color:  white;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 15px 40px;
+}
+footer a{
+    color: #8996a7;
+    margin: 20px 0px;
+    font-size: 14px;
+}
+footer ul{
+    margin-top: 50px;
+    width: 170px;
+    line-height: 15px;
+}
+footer ul li:hover{
+    text-decoration: underline;
+}
+footer h2{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+footer > :last-child{
+    color: #8996a7;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px 50px;
+}
+footer > :last-child > :last-child{
+    display: flex;
+    justify-content: space-between;
+}
