@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body ul{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url(../images/Cafe-dine/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 75px 250px;
+}
+header{
+    font-family: "Open Sans", sans-serif;
+}
+header > ul{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+header li{
+    margin-left: 45px;
+}
+header a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#go{
+    margin-left: auto;
+}
+.banText{
+    margin-top: 150px;
+}
+.banText > h1{
+    font-family: "cookie";
+    color: #e7272d;
+    font-weight: 500;
+}
+.banText > p{
+    margin-top: 20px;
+    width: 650px;
+    font-size: 50px;
+    font-family: "cardo";
+    color: white;
+    font-weight: 700;
+}
+.banText > button{
+    margin-top: 40px;
+    text-transform: uppercase;
+    background-color: #e7272d;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 17px 30px;
+    color: white;
+}
+.about{
+    background-color: white;
+    padding-bottom: 55px;
+}
+.card0{
+    text-align: start;
+    margin: 0px 75px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -90px;
+}
+.card0 i{
+    display: inline-block;
+    font-size: 62px;
+    color: #7e8690;
+    margin-bottom: 20px;
+}
+.card0 p{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 17px;
+    color: #7e8690;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+}
+.card0 > div{
+    padding: 60px 50px 0px;
+    width: 270px;
+    height: 300px;
+    background-color: white;
+    border-bottom: 1px #7e869025 solid;
+}
+
+.card0 > :nth-child(2){    
+    background-color: #f8f8f8 ;
+}
+.about > :nth-child(2){
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+.about > div > h1{
+    margin-top: 30px;
+    font-family: "cookie";
+    font-weight: 500;
+    color: #e7272d;
+    font-size: 40px;
+}
+.about > div > p{
+    font-family: "cardo";
+    font-size: 40px;
+    font-weight: 600;
+    width: 700px;
+}
+.card1{
+    padding: 75px;
+    display: flex;
+}
+.card1 > div{
+    width: 33%;
+    margin-right: 30px;
+}
+.card1  h3{
+    font-family: "cardo";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px 10px;
+}
+.card1 p{
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    color: #7e8690;
+    line-height: 30px;
+}
+.book{
+    background-image: url(../images/Cafe-dine/cta-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+.about2{
+    background-color: white;
+    padding-bottom: 55px;
+}
+.about2 > :first-child{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+.about2 > :first-child > h1{
+    margin-top: 30px;
+    font-family: "cookie";
+    font-weight: 500;
+    color: #e7272d;
+    font-size: 35px;
+}
+.about2 > :first-child > p{
+    font-family: "cardo";
+    font-size: 40px;
+    font-weight: 600;
+    width: 700px;
+}
+.about2 > :nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.about2 > :nth-child(2) > a{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px 40px;
+    color: #7e8690;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    flex-wrap: wrap;
+}
+.menu > div{
+    width: 50%;
+}
+.menu > div > div{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px 20px 20px ;
+    border: 1px #7e8690 dashed;
+    margin: 20px 15px ;
+    position: relative;
+    z-index: 999;
+}
+.menu b{
+    color: #e7272d;
+}
+.menu img{
+    margin-right: 20px;
+}
+.menu > button{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px 35px;
+    position: relative;
+    z-index: 31;
+    right: -250px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 350px;
+}
+.download > :last-child > h2{
+    font-family: "cookie";
+    color: #e7272d;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.download > :last-child > h1{
+    width: 300px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.download > :last-child > p{
+    font-size: 16px;
+    width: 430px;
+    color: #7e8690;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+.download > :last-child > :last-child{
+    display: flex;
+}
+.O{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 20px ;
+    margin-right: 5px;
+}
+.O h3{
+    font-weight: 300;
+}
+.O > i{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.l{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    color: black;
+    background-color: white;
+    border: 2px black solid;
+    padding: 10px 14.5px ;
+}
+.l > i{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.l h3{
+    font-weight: 100;
+    color: #7e8690;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -38px;
+}
+.foot > img{
+    margin: 0px;
+    width: 210.5px;
+    border: none;
+}
+.foot > div{
+    position: relative;
+    top: -140px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #e7272d;
+}
+footer{
+    background-color: #151515;
+    color: white;
+}
+
+.myBorder{
+    border: 3px solid #e7272d;
+}
